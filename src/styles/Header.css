@@ -1,0 +1,36 @@
+.Header {
+  /* background-color: antiquewhite; */
+  color: white;
+  background-color: #1C162F;
+  width: 50%;
+  /* align-items: center; */
+  margin-top: 22px;
+  margin-left: 25%;
+  border-radius: 10px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.H1 {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+.H2 {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  }
+}

@@ -1,0 +1,9 @@
+.container{
+    color: white;
+}
+
+.Head{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+}

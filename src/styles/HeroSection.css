@@ -1,0 +1,61 @@
+.container{
+    width: 50%;
+    margin-left:27%;
+    margin-top: 3%;
+}
+
+.InfoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.Name{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.Pos{
+    color: rgb(146, 140, 140);
+    font-weight: 600;
+}
+
+.Bio{
+    color: white;
+    font-size:24px ;
+    margin-right: 2%;
+}
+
+.profile-container {
+    margin: 20px; /* Optional: Adjust the margin */
+  }
+  
+  .profile-image {
+    width:150px; /* Adjust the size as needed */
+    height:150px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    /* border: 2px solid #fff; Optional: Add a white border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%; /* Adjust width for smaller screens */
+      margin-left: auto; /* Center horizontally */
+      margin-right: auto; /* Center horizontally */
+    }
+    .profile-image{
+       height:100px;
+       width: 100px;
+    }
+    .Name{
+        font-size:30px ;
+    }
+    .Bio{
+        font-size: 18px;
+    }
+  }
+  
+  

@@ -1,0 +1,30 @@
+.contact_container {
+  background: rgba(62, 54, 54, 0.35);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(62, 54, 54, 0.175);
+  border-radius: 20px;
+  height: 350px;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+
+.title{
+    color:white;
+    font-weight: bold;
+    margin: 8%;
+    margin-left: 6%;
+    font-size: 48px;
+}
+
+.getInTouch p{
+    margin-left: 6%;
+    margin-top: -5%; 
+    max-width: 40%;
+    color: white;
+    font-size: 22px;
+}
+
+
